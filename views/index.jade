@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  div.container
+  h1= title
+  p Insert array and see converting to string. Separate the array items by comma #{title}
+  div.row
+    span [
+      input#arrayinput
+    span ]
+  div.row
+      span#stringarr
+  div.row
+    button(name="button", type="button")#testarray Test Array
+
