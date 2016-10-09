@@ -1,12 +1,22 @@
-# npm-nodejstesttask-pkg
+# nodejstesttask
 
-Installation
+#Installation
+$ git clone https://github.com/vargasparyan/nodejstesttask.git
 
 Using npm:
 
-$ npm i --save npm-nodejstesttask-pkg
+$ npm install
 
-In Node.js:
+$ bower install
 
-// Load the full build. 
-var nodejstesttask = require('npm-nodejstesttask-pkg');
+#Run
+
+npm start
+
+#Open Browser
+
+http://localhost:3000
+
+#Run automatic test via Mocha
+
+mocha indexSpec.js
